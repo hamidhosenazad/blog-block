@@ -1,14 +1,14 @@
 {
 	"name": "blog-block",
 	"version": "1.0.0",
-	"description": "Blog block is block based minimalist blog theme",
+	"description": "Blog block is a block based minimalist blog theme",
 	"author": "Hamid Azad",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"WordPress",
 		"Theme"
 	],
-	"homepage": "",
+	"homepage": "https://github.com/hamidhosenazad/blog-block",
 	"devDependencies": {
 		"@wordpress/stylelint-config": "^21.9.0",
 		"@wordpress/eslint-plugin": "^13.10.0",

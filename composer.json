@@ -1,12 +1,12 @@
 {
 	"name": "blog-block/blog-block",
 	"type": "package",
-	"description": "Blog block is block based minimalist blog theme",
+	"description": "Blog block is a block based minimalist blog theme",
 	"keywords": [
 		"WordPress",
 		"Themes"
 	],
-	"homepage": "",
+	"homepage": "https://github.com/hamidhosenazad/blog-block",
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.4"
