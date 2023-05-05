@@ -102,43 +102,58 @@
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
-				{
-					"name": "System",
-					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
-				},
-				{
-					"name": "Serif",
-					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
-				},
-				{
-					"name": "Monospace",
-					"slug": "monospace",
-					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
-				},
-				{
-					"name": "Lora",
-					"slug": "lora",
-					"fontFamily": "Lora,\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif",
-					"fontFace": [
-						{
-							"fontFamily": "Lora",
-							"fontWeight": "200 900",
-							"fontStyle": "normal",
-							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/lora-v23-latin-ext_latin-regular.woff2" ]
-						},
-						{
-							"fontFamily": "Lora",
-							"fontWeight": "200 900",
-							"fontStyle": "italic",
-							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/lora-v23-latin-ext_latin-italic.woff2" ]
-						}
-					]
-				}
-			],
+                {
+                    "name": "Inter",
+                    "slug": "inter",
+                    "fontFamily": "'Roboto', sans-serif;",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-SemiBold.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Roboto",
+                    "slug": "roboto",
+                    "fontFamily": "'Roboto', sans-serif;",
+                    "fontFace": [
+                        
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/fonts/roboto/Roboto-Medium.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/roboto/Roboto-Bold.ttf"
+                            ]
+                        }
+                    ]
+                }
+            ],
 			"fontSizes": [
 				{
 					"slug": "extra-small",
@@ -355,8 +370,8 @@
 			}
 		},
 		"typography": {
-			"fontSize": "var(--wp--preset--font-size--medium)",
-			"fontFamily": "var(--wp--preset--font-family--system)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontFamily": "var(--wp--preset--font-family--inter)",
 			"lineHeight": "1.75"
 		}
 		
